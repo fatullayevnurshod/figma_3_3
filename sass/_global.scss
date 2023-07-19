@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+html {
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  li {
+    list-style: none;
+  }
+}
+.container {
+  max-width: 85%;
+  margin: auto;
+}
+
+@media screen and (min-width: 834px) {
+  .container {
+    max-width: 77%;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1336px) {
+  .container {
+    max-width: 1135px;
+    margin: auto;
+  }
+}
